@@ -282,7 +282,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 2..6
-  enable_coderay: false
+  enable_coderay: true
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     ## With the 'text' option, no highlighting is applied by default. We
@@ -293,12 +293,12 @@ kramdown:
     css_class:
 
   coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
+    wrap: div
+    line_numbers: inline
+    line_numbers_start: 1
+    tab_width: 4
+    bold_every: 10
+    css: style
 
 text:
   ## Values last updated 2018-10-16
