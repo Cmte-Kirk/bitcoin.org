@@ -282,17 +282,12 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 2..6
-  enable_coderay: true
+  enable_coderay: false
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     ## With the 'text' option, no highlighting is applied by default. We
     ## need this for backwards compatibility with existing code blocks.
     default_lang: text
-
-    ## Might be useful in the future, but turn off for upgrade to Jekyll 3.0
-    css_class:
-
-  coderay:
     wrap: div
     line_numbers: inline
     line_numbers_start: 1
